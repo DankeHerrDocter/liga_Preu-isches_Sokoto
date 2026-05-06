@@ -14,6 +14,11 @@
 }
 
 INJECT:pm_iron_frame_buildings = {
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 4
+		}
+	}
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_wood_add = 10
@@ -31,6 +36,12 @@ INJECT:pm_iron_frame_buildings = {
 }
 
 INJECT:pm_steel_frame_buildings = {
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 7
+		}
+	}
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_steel_add = 10
@@ -47,6 +58,12 @@ INJECT:pm_steel_frame_buildings = {
 }
 
 INJECT:pm_arc_welded_buildings = {
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 12
+		}
+	}
+
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_steel_add = 10
