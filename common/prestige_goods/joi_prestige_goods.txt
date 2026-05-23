@@ -156,7 +156,14 @@ prestige_good_benz_car = {#奔驰汽车
 }
 
 prestige_good_rr_engines = {#罗罗发动机
+
 	base_good = engines
 	prestige_bonus = 0.1
 	texture = "gfx/interface/icons/prestige_goods/rr_engines.png"
+}
+
+prestige_good_generic_fruit = {
+	base_good = fruit
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/prestige_goods/generic_fruit_prestige.png"
 }
