@@ -159,3 +159,14 @@ INJECT:default_building_subsistence_rice_farm = {
 		}
 	}
 }
+
+INJECT:default_building_banana_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_fruit_add = -15
+		}
+
+	}
+}
