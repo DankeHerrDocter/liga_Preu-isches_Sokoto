@@ -1,3 +1,4 @@
+l_russian: 
  prestige_good_generic_fruit: "Отборные фрукты"
  je_prestige_goods_fruit: "$prestige_good_generic_fruit$"
  je_prestige_goods_fruit_reason: "Компания «[SCOPE.sCompany('relevant_company').GetName]» стала важной частью нашей экономики. Пользуясь своей успешностью, она намеревается создать собственный бренд @prestige_good_generic_fruit! #b высококачественный фрукт#!. В случае успеха это повысит конкурентоспособность компании на мировом рынке @fruit! #b фрукта#!."
