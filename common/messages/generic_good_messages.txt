@@ -18,3 +18,10 @@ prestige_goods_telephones_unlocked = {
 
 	notification_type = toast
 }
+
+prestige_goods_iron_unlocked = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/company.dds"
+
+	notification_type = toast
+}
