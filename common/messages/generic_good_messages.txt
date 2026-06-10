@@ -53,3 +53,10 @@ prestige_goods_steamers_unlocked = {
 
 	notification_type = toast
 }
+
+prestige_goods_sulfur_unlocked = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/company.dds"
+
+	notification_type = toast
+}

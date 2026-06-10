@@ -111,3 +111,17 @@
  notification_prestige_goods_steamers_unlocked_desc: "[Concept('concept_building', '$concept_buildings$')] owned by [SCOPE.sCompany('relevant_company').GetName] may now begin producing @prestige_good_generic_steamers! #b $prestige_good_generic_steamers$#!"
  notification_prestige_goods_steamers_unlocked_tooltip: "#header $notification_prestige_goods_steamers_unlocked_name$#!\n$TOOLTIP_DELIMITER$\n$notification_prestige_goods_steamers_unlocked_desc$"
 
+ prestige_good_generic_sulfur: "High-grade Sulfur"
+ je_prestige_goods_sulfur: "$prestige_good_generic_sulfur$"
+ je_prestige_goods_sulfur_reason: "[SCOPE.sCompany('relevant_company').GetName] has established itself as an important actor within our economy. The company seeks to leverage its current prosperity to develop its own brand of @prestige_good_generic_sulfur! #b $prestige_good_generic_sulfur$#!. If successful, it will be able to expand its competitiveness within the global @sulfur! #b $sulfur$#! market."
+ je_prestige_goods_sulfur_goal: "Maintain the following for #v [GetPlayer.MakeScope.ScriptValue('prestige_good_journal_entry_months')] months#! (currently #v [ROOT.GetCountry.MakeScope.Var('prestige_sulfur_timer_var').GetValue]#!): #indent_newline:3 "
+
+ je_prestige_goods_sulfur_complete_tt: "Has completed the #b $je_prestige_goods_sulfur$#! [concept_journal_entry]"
+ je_prestige_goods_sulfur_reward_tt: "[SCOPE.sCompany('relevant_company').GetName] will be able to produce @prestige_good_generic_sulfur! #b $prestige_good_generic_sulfur$#!"
+
+ not_prestige_good_generic_sulfur_var_tt: "Has #b not#! already developed @prestige_good_generic_sulfur! #b $prestige_good_generic_sulfur$#!"
+
+ notification_prestige_goods_sulfur_unlocked_name: "[SCOPE.sCompany('relevant_company').GetName] develops @prestige_good_generic_sulfur! #b $prestige_good_generic_sulfur$#!"
+ notification_prestige_goods_sulfur_unlocked_desc: "[Concept('concept_building', '$concept_buildings$')] owned by [SCOPE.sCompany('relevant_company').GetName] may now begin producing @prestige_good_generic_sulfur! #b $prestige_good_generic_sulfur$#!"
+ notification_prestige_goods_sulfur_unlocked_tooltip: "#header $notification_prestige_goods_sulfur_unlocked_name$#!\n$TOOLTIP_DELIMITER$\n$notification_prestige_goods_sulfur_unlocked_desc$"
+
