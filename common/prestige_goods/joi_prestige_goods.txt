@@ -203,3 +203,9 @@ prestige_good_generic_oil = {
 	prestige_bonus = 0.1
 	texture = "gfx/interface/icons/prestige_goods/generic_oil_prestige.png"
 }
+
+prestige_good_generic_steamers = {
+	base_good = steamers
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/prestige_goods/generic_steamers_prestige.png"
+}
