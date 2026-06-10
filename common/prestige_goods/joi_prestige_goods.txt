@@ -185,3 +185,9 @@ prestige_good_generic_iron = {
 	prestige_bonus = 0.1
 	texture = "gfx/interface/icons/prestige_goods/generic_iron_prestige.png"
 }
+
+prestige_good_generic_wood = {
+	base_good = wood
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/prestige_goods/generic_wood_prestige.png"
+}
