@@ -4,3 +4,10 @@ prestige_goods_fruit_unlocked = {
 
 	notification_type = toast
 }
+
+prestige_goods_dye_unlocked = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/company.dds"
+
+	notification_type = toast
+}

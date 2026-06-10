@@ -167,3 +167,9 @@ prestige_good_generic_fruit = {
 	prestige_bonus = 0.1
 	texture = "gfx/interface/icons/prestige_goods/generic_fruit_prestige.png"
 }
+
+prestige_good_generic_dye = {
+	base_good = dye
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/prestige_goods/generic_dye_prestige.png"
+}
