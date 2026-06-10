@@ -173,3 +173,9 @@ prestige_good_generic_dye = {
 	prestige_bonus = 0.1
 	texture = "gfx/interface/icons/prestige_goods/generic_dye_prestige.png"
 }
+
+prestige_good_generic_telephones = {
+	base_good = telephones
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/prestige_goods/generic_telephones_prestige.png"
+}
